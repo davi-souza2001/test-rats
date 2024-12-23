@@ -1,32 +1,25 @@
-import { Link } from 'expo-router'
-import { View, Text, TouchableOpacity, Image, StyleSheet, ImageBackground } from 'react-native'
-
-const styles = StyleSheet.create({
-    tinyLogo: {
-        width: 150,
-        height: 150,
-    },
-});
+import { View, Text, Image } from 'react-native'
 
 export default function Index() {
     return (
-        <View className='bg-[#040415] h-screen py-16 px-5 flex flex-col items-center justify-center gap-32'>
-            <View>
-                <Image
-                    style={styles.tinyLogo}
-                    source={require('../../assets/logo.png')}
-                />
-            </View>
-            <View className='flex items-center justify-center w-full'>
-                <Text className='text-3xl font-bold text-white'>Welcome to Test Rats</Text>
-                <Text className='text-[#7F7F7F] text-xl font-medium'>We need to work out safely</Text>
-            </View>
-            <View className='flex items-center justify-center w-full'>
-                <Link href="/login" asChild>
-                    <TouchableOpacity className='bg-[#FD4E2C] h-20 w-full rounded-2xl flex items-center justify-center'>
-                        <Text className='text-xl font-bold text-white'>Let's Walk</Text>
-                    </TouchableOpacity>
-                </Link>
+        <View className='bg-[#040415] h-screen py-16 px-5 flex flex-col items-start justify-start gap-32'>
+            <View className='flex flex-row items-center justify-between w-full'>
+                <View className='flex flex-row items-center justify-start gap-2'>
+                    <Image
+                        style={{
+                            width: 50,
+                            height: 50,
+                        }}
+                        source={require('../../assets/logo.png')}
+                    />
+                    <View>
+                        <Text className='text-[#7F7F7F] font-medium'>Hello Linh!</Text>
+                        <Text className='text-xl font-bold text-white'>Welcome to Test Rats</Text>
+                    </View>
+                </View>
+                <Text className='text-white'>
+                    asdas
+                </Text>
             </View>
         </View>
     )
