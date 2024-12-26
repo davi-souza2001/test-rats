@@ -2,7 +2,7 @@ import { View, Text, Image } from 'react-native'
 
 export default function Index() {
     return (
-        <View className='bg-[#040415] h-screen py-16 px-5 flex flex-col items-start justify-start gap-32'>
+        <View className='bg-[#040415] h-screen py-10 px-5 flex flex-col items-start justify-start'>
             <View className='flex flex-row items-center justify-between w-full'>
                 <View className='flex flex-row items-center justify-start gap-2'>
                     <Image
@@ -20,6 +20,16 @@ export default function Index() {
                 <Text className='text-white'>
                     asdas
                 </Text>
+            </View>
+            <View className='flex items-center justify-center w-full h-40 gap-2'>
+                <Text className='text-4xl font-bold tracking-[.1rem] text-white'>1884 Kcal</Text>
+                <Text className='text-[#77777c]'>Total Kilocalories</Text>
+            </View>
+            <View className='flex flex-row items-center justify-around w-full h-20 gap-2'>
+                <View className='flex items-center justify-center w-full gap-2'>
+                    <Text className='text-2xl font-bold tracking-[.1rem] text-white'>7580 m</Text>
+                    <Text className='text-sm text-[#77777c]'>Distance</Text>
+                </View>
             </View>
         </View>
     )
