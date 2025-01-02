@@ -14,7 +14,7 @@ export default function Start() {
             <View>
                 <Image
                     style={styles.tinyLogo}
-                    source={require('../../assets/logo.png')}
+                    source={require('../../../assets/logo.png')}
                 />
             </View>
             <View className='flex items-center justify-center w-full'>

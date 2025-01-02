@@ -1,12 +1,16 @@
-import { View } from "react-native"
+import { View, ScrollView } from "react-native"
 import { UserRank } from "./components/UserRank";
 
 export const ListFriends = () => {
+    const mock_list = [1, 2, 3, 4, 5, 6]
+
     return (
-        <View className='flex items-start justify-start w-full gap-4'>
-            <UserRank />
-            <UserRank />
-            <UserRank />
+        <View >
+            <ScrollView className="h-64">
+                {mock_list.map((item, index) => (
+                    <UserRank key={index} />
+                ))}
+            </ScrollView>
         </View>
     )
 }

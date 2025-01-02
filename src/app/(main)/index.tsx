@@ -16,7 +16,7 @@ export default function Index() {
                             width: 50,
                             height: 50,
                         }}
-                        source={require('../../assets/logo.png')}
+                        source={require('../../../assets/logo.png')}
                     />
                     <View>
                         <Text className='text-[#7F7F7F] font-medium'>Hello Linh!</Text>

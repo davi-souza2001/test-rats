@@ -3,7 +3,7 @@ import { Image, Text, View } from "react-native"
 
 export const UserRank = () => {
     return (
-        <View className="flex flex-row items-center justify-between w-full h-20 px-4 border border-gray-400 rounded-full">
+        <View className="flex flex-row items-center justify-between w-full h-20 px-4 mb-3 border border-gray-400 rounded-full">
             <View className="flex flex-row items-center justify-start h-20 gap-4">
                 <Image
                     style={{
