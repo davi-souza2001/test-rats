@@ -18,8 +18,6 @@ export default function Layout() {
                     tabBarLabel: 'Teste',
                     tabBarIcon: ({ color }) => <MaterialIcons name="home" color={color} size={20} />
                 }} />
-            <Tabs.Screen name="login" />
-            <Tabs.Screen name="start" />
         </Tabs>
     )
 }

@@ -3,6 +3,7 @@ import { ListDataDetail } from '@/components/ListDataDetail';
 import { ListFriends } from '@/components/ListFriends';
 
 import CalendarIcon from '@expo/vector-icons/MaterialIcons';
+import { MaterialIcons } from "@expo/vector-icons"
 import { Link } from 'expo-router';
 import { View, Text, Image } from 'react-native'
 
@@ -23,10 +24,13 @@ export default function Index() {
                         <Text className='text-xl font-bold text-white'>Welcome to Test Rats</Text>
                     </View>
                 </View>
-                <View className='flex items-center justify-center w-12 h-12 border-[0.3px] border-white rounded-full'>
-                    <Link href="/start" asChild>
+                <View className='flex items-center justify-center w-12 h-12 border-[0.5px] border-white rounded-full'>
+                    {/* <Link href="/start" asChild>
                         <CalendarIcon name="calendar-month" size={20} color="white" />
-                    </Link>
+                    </Link> */}
+                    <View className='flex items-center justify-center w-12 h-12'>
+                        <MaterialIcons name="add" color="white" size={25} />
+                    </View>
                 </View>
             </View>
             <View className='flex items-center justify-center w-full h-40 gap-2'>
