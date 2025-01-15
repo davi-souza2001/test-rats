@@ -2,9 +2,7 @@ import { GeneralDetail } from '@/components/GeneralDetail'
 import { ListDataDetail } from '@/components/ListDataDetail';
 import { ListFriends } from '@/components/ListFriends';
 
-import CalendarIcon from '@expo/vector-icons/MaterialIcons';
 import { MaterialIcons } from "@expo/vector-icons"
-import { Link } from 'expo-router';
 import { View, Text, Image } from 'react-native'
 
 export default function Index() {
