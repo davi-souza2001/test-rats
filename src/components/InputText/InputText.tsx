@@ -11,10 +11,12 @@ type InputTextProps = {
 const InputText = forwardRef<TextInput, InputTextProps>(({ formProps, inputProps }, ref) => {
     return (
         <Controller
-            render={() => (
+            render={({ field }) => (
                 <View className="w-full">
                     <TextInput
                         ref={ref}
+                        value={field.value}
+                        onChangeText={field.onChange}
                         className="w-full h-12 p-2 text-white border border-[#0c0c38] rounded-lg placeholder:text-slate-400"
                         {...inputProps}
                     />
