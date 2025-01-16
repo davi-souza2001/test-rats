@@ -1,3 +1,4 @@
+import React from "react";
 import { GeneralDetail } from '@/components/GeneralDetail'
 import { ListDataDetail } from '@/components/ListDataDetail';
 import { ListFriends } from '@/components/ListFriends';
@@ -16,6 +17,7 @@ export default function Index() {
                             width: 50,
                             height: 50,
                         }}
+                        // eslint-disable-next-line @typescript-eslint/no-require-imports
                         source={require('../../../assets/logo.png')}
                     />
                     <View>
@@ -24,10 +26,7 @@ export default function Index() {
                     </View>
                 </View>
                 <View className='flex items-center justify-center w-12 h-12 border-[0.5px] border-white rounded-full'>
-                    {/* <Link href="/start" asChild>
-                        <CalendarIcon name="calendar-month" size={20} color="white" />
-                    </Link> */}
-                    <Link href="/registerActivity" asChild className='flex items-center justify-center w-12 h-12 bg-red-500'>
+                    <Link href="/registerActivity">
                         <MaterialIcons name="add" color="white" size={25} />
                     </Link>
                 </View>

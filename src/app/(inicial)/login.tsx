@@ -1,5 +1,6 @@
+import React from "react";
 import { Link } from 'expo-router';
-import { View, Text, TouchableOpacity, Image, StyleSheet, ImageBackground } from 'react-native'
+import { View, Text, TouchableOpacity, Image, StyleSheet } from 'react-native'
 
 const styles = StyleSheet.create({
     tinyLogo: {
@@ -14,6 +15,7 @@ export default function Login() {
             <View>
                 <Image
                     style={styles.tinyLogo}
+                    // eslint-disable-next-line @typescript-eslint/no-require-imports
                     source={require('../../../assets/logo.png')}
                 />
             </View>
@@ -22,7 +24,7 @@ export default function Login() {
                     Join the Challenge
                 </Text>
                 <Text className='text-[#7F7F7F] text-xl font-medium text-center'>
-                    Let's start the week with a challenge with your best friends
+                    Let&apos;s start the week with a challenge with your best friends
                 </Text>
             </View>
             <View className='flex items-center justify-center w-full'>

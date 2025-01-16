@@ -1,4 +1,5 @@
-import { Text, View, TextInput, TextInputProps } from "react-native"
+import React from "react";
+import { View, TextInput, TextInputProps } from "react-native"
 import { Controller, UseControllerProps } from 'react-hook-form'
 import { forwardRef } from "react"
 
@@ -23,5 +24,5 @@ const InputText = forwardRef<TextInput, InputTextProps>(({ formProps, inputProps
         />
     )
 });
-
+InputText.displayName = "InputText";
 export { InputText }

@@ -1,3 +1,4 @@
+import React from "react";
 import { Link } from 'expo-router'
 import { View, Text, TouchableOpacity, Image, StyleSheet } from 'react-native'
 
@@ -14,6 +15,7 @@ export default function Start() {
             <View>
                 <Image
                     style={styles.tinyLogo}
+                    // eslint-disable-next-line @typescript-eslint/no-require-imports
                     source={require('../../../assets/logo.png')}
                 />
             </View>
@@ -24,7 +26,7 @@ export default function Start() {
             <View className='flex items-center justify-center w-full'>
                 <Link href="/login" asChild>
                     <TouchableOpacity className='bg-[#FD4E2C] h-20 w-full rounded-2xl flex items-center justify-center'>
-                        <Text className='text-xl font-bold text-white'>Let's Walk</Text>
+                        <Text className='text-xl font-bold text-white'>Let&apos;s Walk</Text>
                     </TouchableOpacity>
                 </Link>
             </View>

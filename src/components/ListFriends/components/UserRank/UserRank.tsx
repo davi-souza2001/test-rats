@@ -1,3 +1,4 @@
+import React from "react";
 import AntDesign from "@expo/vector-icons/AntDesign"
 import { Image, Text, View } from "react-native"
 
@@ -10,6 +11,7 @@ export const UserRank = () => {
                         width: 50,
                         height: 50,
                     }}
+                    // eslint-disable-next-line @typescript-eslint/no-require-imports
                     source={require('../../../../../assets/logo.png')}
                 />
                 <View>
