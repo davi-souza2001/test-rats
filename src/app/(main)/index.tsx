@@ -3,6 +3,7 @@ import { ListDataDetail } from '@/components/ListDataDetail';
 import { ListFriends } from '@/components/ListFriends';
 
 import { MaterialIcons } from "@expo/vector-icons"
+import { Link } from 'expo-router';
 import { View, Text, Image } from 'react-native'
 
 export default function Index() {
@@ -26,9 +27,9 @@ export default function Index() {
                     {/* <Link href="/start" asChild>
                         <CalendarIcon name="calendar-month" size={20} color="white" />
                     </Link> */}
-                    <View className='flex items-center justify-center w-12 h-12'>
+                    <Link href="/registerActivity" asChild className='flex items-center justify-center w-12 h-12 bg-red-500'>
                         <MaterialIcons name="add" color="white" size={25} />
-                    </View>
+                    </Link>
                 </View>
             </View>
             <View className='flex items-center justify-center w-full h-40 gap-2'>
