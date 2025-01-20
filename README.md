@@ -1,7 +1,8 @@
 - [] Fluxo de adicionar checkin
   - [] Abrir camera
-  - [] Abrir página onde irá ter a foto e mais os campos para adicionar
-- [] Página de criar/entrar em um grupo (cada pessoa participa só de um grupo)
+  - [x] Abrir página onde irá ter a foto e mais os campos para adicionar
+- [x] Página de entrar em um grupo (cada pessoa participa só de um grupo)
+- [] Página de criar um grupo 
 - [] Página do grupo (com lista de checkins)
 - [] Página de checkin individual de cada pessoa do grupo
 - [] Página de perfil
