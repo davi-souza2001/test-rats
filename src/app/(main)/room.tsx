@@ -1,4 +1,5 @@
 import { InputText } from "@/components/InputText";
+import { Link } from "expo-router";
 import React, { useRef } from "react";
 import { useForm } from "react-hook-form";
 
@@ -34,9 +35,11 @@ export default function Room() {
                 <TouchableOpacity className='bg-[#FD4E2C] h-20 w-full rounded-2xl flex items-center justify-center'>
                     <Text className='text-xl font-bold text-white'>Login with Google</Text>
                 </TouchableOpacity>
-                <TouchableOpacity className='bg-[#0c0c38] h-20 w-full rounded-2xl flex items-center justify-center'>
-                    <Text className='text-xl font-bold text-white'>Create Room</Text>
-                </TouchableOpacity>
+                <Link href="/registerRoom" asChild>
+                    <TouchableOpacity className='bg-[#0c0c38] h-20 w-full rounded-2xl flex items-center justify-center'>
+                        <Text className='text-xl font-bold text-white'>Create Room</Text>
+                    </TouchableOpacity>
+                </Link>
             </View>
         </View>
     );
