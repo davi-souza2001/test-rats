@@ -3,7 +3,7 @@
   - [x] Abrir página onde irá ter a foto e mais os campos para adicionar
 - [x] Página de entrar em um grupo (cada pessoa participa só de um grupo)
 - [x] Página de criar um grupo 
-- [] Página do grupo (com lista de checkins)
+- [x] Página do grupo (com lista de checkins)
 - [] Página de ranking
 - [] Página de checkin individual de cada pessoa do grupo
 - [] Página de perfil
