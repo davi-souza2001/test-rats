@@ -5,5 +5,5 @@
 - [x] Página de criar um grupo 
 - [x] Página do grupo (com lista de checkins)
 - [] Página de ranking
-- [] Página de checkin individual de cada pessoa do grupo
+- [x] Página de checkin individual de cada pessoa do grupo
 - [] Página de perfil
