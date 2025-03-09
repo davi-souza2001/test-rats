@@ -6,4 +6,4 @@
 - [x] Página do grupo (com lista de checkins)
 - [] Página de ranking
 - [x] Página de checkin individual de cada pessoa do grupo
-- [] Página de perfil
+- [x] Página de perfil

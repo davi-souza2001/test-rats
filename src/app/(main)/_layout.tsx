@@ -26,6 +26,12 @@ export default function Layout() {
                     tabBarLabel: 'Room',
                     tabBarIcon: ({ color }) =>  <AntDesign name="pushpin" size={20} color={color} />
                 }} />
+            <Tabs.Screen
+                name="profile"
+                options={{
+                    tabBarLabel: 'Profile',
+                    tabBarIcon: ({ color }) => <MaterialIcons name="person" color={color} size={20} />
+                }} />
         </Tabs>
     )
 }
