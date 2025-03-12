@@ -10,7 +10,7 @@ export const RoomList = () => {
 
     return (
         <View className='bg-[#040415] h-screen py-20 px-5 flex flex-col items-center justify-start gap-5'>
-            <View className='flex flex-row items-center justify-between w-full gap-5'>
+            <View className='flex flex-row gap-5 justify-between items-center w-full'>
                 <Text className='text-2xl font-bold text-white'>
                     Test Room
                 </Text>
@@ -20,22 +20,22 @@ export const RoomList = () => {
                     </Link>
                 </View>
             </View>
-            <View className='flex flex-row items-center justify-around w-full h-12 gap-2 px-3'>
-                <View className='flex flex-row items-center justify-center w-32 gap-2'>
+            <View className='flex flex-row gap-2 justify-around items-center px-3 w-full h-12'>
+                <View className='flex flex-row gap-2 justify-center items-center w-32'>
                     <View className="w-12 h-12 bg-gray-400 rounded-full" />
                     <View>
                         <Text className='text-xl font-bold tracking-[.1rem] text-white'>Davi</Text>
                         <Text className='text-sm text-[#77777c] ml-0.5'>Top 1</Text>
                     </View>
                 </View>
-                <View className='flex flex-row items-center justify-center w-32 gap-2'>
+                <View className='flex flex-row gap-2 justify-center items-center w-32'>
                     <View className="w-12 h-12 bg-gray-400 rounded-full" />
                     <View>
                         <Text className='text-xl font-bold tracking-[.1rem] text-white'>Davi</Text>
                         <Text className='text-sm text-[#77777c] ml-0.5'>You</Text>
                     </View>
                 </View>
-                <View className='flex items-center justify-center w-32'>
+                <View className='flex justify-center items-center w-32'>
                     <Text className='text-lg font-bold tracking-[.1rem] text-white'>Ranking</Text>
                     <FontAwesome name="medal" size={20} color="white" />
                 </View>

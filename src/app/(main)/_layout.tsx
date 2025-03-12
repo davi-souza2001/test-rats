@@ -32,6 +32,12 @@ export default function Layout() {
                     tabBarLabel: 'Profile',
                     tabBarIcon: ({ color }) => <MaterialIcons name="person" color={color} size={20} />
                 }} />
+            <Tabs.Screen
+                name="roomActivity"
+                options={{
+                    tabBarLabel: 'RoomActivity',
+                    tabBarIcon: ({ color }) => <MaterialIcons name="person" color={color} size={20} />
+                }} />
         </Tabs>
     )
 }

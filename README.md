@@ -4,6 +4,6 @@
 - [x] Página de entrar em um grupo (cada pessoa participa só de um grupo)
 - [x] Página de criar um grupo 
 - [x] Página do grupo (com lista de checkins)
-- [] Página de ranking
+- [x] Página de status da atividade
 - [x] Página de checkin individual de cada pessoa do grupo
 - [x] Página de perfil
